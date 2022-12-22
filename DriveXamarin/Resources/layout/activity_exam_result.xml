@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:id="@+id/lblCongratulations"
+        android:text="@string/Congratulations" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:text="@string/ScoreDetails"
+        android:id="@+id/lblScoreDetails"
+        android:gravity="center" />
+    <Button
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnCloseResults"
+        android:text="@string/CloseResults" />
+</LinearLayout>

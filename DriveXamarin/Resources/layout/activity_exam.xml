@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#ffffff"
+  android:padding="16dp">
+   />
+   <TextView
+    android:id="@+id/lblScore"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/lblScore"
+    android:textColor="@android:color/black" />
+  <TextView
+    android:id="@+id/lblQuestionCount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/lblScore"
+    android:text="@string/lblQuestionCount" />
+
+
+  <ImageView
+    android:id="@+id/imageQuestion"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_below="@+id/lblQuestionCount"
+    android:layout_marginTop="20dp"
+    android:padding="5dp"
+    
+    
+    android:contentDescription="@string/imageQuestion" />
+
+  <TextView
+    android:id="@+id/txtQuestion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/imageQuestion"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="16dp"
+    android:text="@string/txtQuestion"
+    android:textAlignment="center"
+    android:textColor="@android:color/black"
+    android:textSize="20sp" />
+
+  <RadioGroup
+    android:id="@+id/radioAnswerGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txtQuestion">
+
+    <RadioButton
+      android:id="@+id/radioAnswer1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/radioAnswer1" />
+
+    <RadioButton
+      android:id="@+id/radioAnswer2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/radioAnswer2" />
+
+    <RadioButton
+      android:id="@+id/radioAnswer3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/radioAnswer3" />
+
+    <RadioButton
+      android:id="@+id/radioAnswer4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/radioAnswer4" />
+  </RadioGroup>
+
+  <Button
+    android:id="@+id/btnSubmitAnswer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/radioAnswerGroup"
+    android:layout_marginTop="16dp"
+    android:text="@string/btnSubmitAnswer" />
+</RelativeLayout>

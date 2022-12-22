@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/container"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#ffffff">
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:minWidth="25px"
+android:minHeight="25px">
+<Button
+android:id="@+id/driveCategory"
+android:textColor="@color/whiteTextColor"
+android:background="@color/colorPrimaryDark"
+android:layout_width="match_parent"
+android:layout_marginTop="105dp"
+android:layout_marginRight="20dp"
+android:layout_marginLeft="20dp"	
+android:layout_height="wrap_content"
+android:text="Категория обучения"
+android:layout_gravity="center_horizontal"/>
+
+<Button
+android:id="@+id/updatePassword"
+android:layout_width="match_parent"
+android:textColor="@color/whiteTextColor"
+android:background="@color/colorPrimaryDark"
+android:layout_marginTop="15dp"
+android:layout_marginRight="20dp"
+android:layout_marginLeft="20dp"	
+android:layout_height="wrap_content"
+android:text="Поменять пароль"
+android:layout_gravity="center_horizontal"/>
+
+<Button
+android:id="@+id/about"
+android:layout_above="@+id/questions"
+android:layout_width="match_parent"
+android:textColor="@color/whiteTextColor"
+android:background="@color/colorPrimaryDark"
+android:layout_marginTop="15dp"
+android:layout_marginRight="20dp"
+android:layout_marginLeft="20dp"	
+android:layout_height="wrap_content"
+android:text="О приложении"
+android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>
+</RelativeLayout>

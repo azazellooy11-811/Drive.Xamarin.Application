@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp"
+    android:minHeight="400dp">
+	<EditText
+		android:id="@+id/txtUserName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="20dp"
+		android:textColorHint="#9D9B9D"
+		android:layout_marginRight="20dp"
+		android:hint="@string/txtUserName"
+		android:paddingLeft="10dp"
+		android:textColor="#000"
+		android:inputType="text" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#9D9B9D"
+        android:id="@+id/txtPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/txtPassword"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/txtUserName"/>
+	
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPassword"
+        android:layout_marginTop="20dp">
+        <Button
+            android:text="@string/btnDialogLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDialogLogIn"
+            android:textSize="20dp"
+            android:textColor="@color/whiteTextColor"
+            android:background="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:height="70dp"
+            android:paddingTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp" />
+    </RelativeLayout>
+</RelativeLayout>

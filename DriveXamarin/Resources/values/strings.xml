@@ -1,0 +1,35 @@
+﻿<resources>
+  <string name="app_name">Водитель</string>
+  <string name="title_rules">Правила</string>
+  <string name="title_education">Обучение</string>
+  <string name="title_exam">Экзамен</string>
+  <string name="button_themes">Темы</string>
+  <string name="button_errors">Ошибки</string>
+  <string name="button_tickets">Билеты</string>
+  <string name="button_questions">Вопросы</string>
+  <string name="lblScore">Счёт:</string>
+  <string name="lblQuestionCount">Ответ 1/20</string>
+  <string name="imageQuestion">бла</string>
+  <string name="txtQuestion">Текст вопроса</string>
+  <string name="radioAnswer1">Ответ 1</string>
+  <string name="radioAnswer2">Ответ 2</string>
+  <string name="radioAnswer3">Ответ 3</string>
+  <string name="radioAnswer4">Ответ 4</string>
+  <string name="btnSubmitAnswer">Далее</string>
+  <string name="Congratulations">Поздравляю</string>
+  <string name="ScoreDetails">LOREM IPSUM</string>
+  <string name="CloseResults">Закрыть результат</string>
+  <string name="txtCreateAccount">Создать новый аккаунт</string>
+  <string name="btnSignIn">Войти</string>
+  <string name="txtUserName">Логин</string>
+  <string name="txtPassword">Пароль</string>
+  <string name="btnDialogLogIn">Войти</string>
+  <string name="txtFirstName">Имя</string>
+  <string name="txtSurName">Фамилия</string>
+  <string name="txtCity">Город</string>
+  <string name="txtDrivingSchool">Автошкола</string>
+  <string name="btnDialogSignUp">Зарегистрироваться</string>
+  <string name="profileImageBtn">кликабельная кнопка профиля</string>
+  <string name="badgeBtn">Мои достижения</string>
+  <string name="username">Ник:</string>
+</resources>
